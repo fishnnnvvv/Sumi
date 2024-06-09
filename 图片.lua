@@ -818,4 +818,5 @@ return {
   ["lucide-x-square"] = "rbxassetid://10747384217",
   ["lucide-zoom-in"] = "rbxassetid://10747384552",
   ["lucide-zoom-out"] = "rbxassetid://10747384679"
+  ["lucide-Sumi"] = "rbxassetid://17700422463"
 }
