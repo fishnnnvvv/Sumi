@@ -99,7 +99,7 @@ function UIMinimize()
     if minimized then
         game.TweenService:Create(game.CoreGui[getgenv().libName].shadow.Main,
             TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                Size = UDim2.new(0, 486, 0, 283)
+                Size = UDim2.new(0.326148063, 0, 0.29880476, 0)
             }):Play()
         wait()
         game.TweenService:Create(game.CoreGui[getgenv().libName].shadow,
@@ -307,7 +307,7 @@ function Forums.new(Themes, close_callback)
     UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
 
     game.TweenService:Create(Main, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-        Size = UDim2.new(0, 486, 0, 283)
+        Size = UDim2.new(0.326148063, 0, 0.29880476, 0)
     }):Play()
     wait()
     game.TweenService:Create(shadow, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
