@@ -99,7 +99,7 @@ function UIMinimize()
     if minimized then
         game.TweenService:Create(game.CoreGui[getgenv().libName].shadow.Main,
             TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                Size = UDim2.new(0, 392, 0, 500)
+                Size = UDim2.new(0, 486, 0, 283)
             }):Play()
         wait()
         game.TweenService:Create(game.CoreGui[getgenv().libName].shadow,
@@ -180,7 +180,7 @@ function Forums.new(Themes, close_callback)
     Open.Position = UDim2.new(0.0803011283, 0, 0.472511142, 0)
     Open.Size = UDim2.new(0, 50, 0, 50)
     Open.ZIndex = 1
-    Open.Image = "rbxassetid://14494607687"
+    Open.Image = "rbxassetid://17700422463"
     Open.ImageTransparency = 0.500
     Open.Active = true
     Open.Draggable = true
